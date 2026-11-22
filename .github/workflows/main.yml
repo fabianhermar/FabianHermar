@@ -1,27 +1,41 @@
-name: Publish new version
+name: Daily Profile Update
 
 on:
   workflow_dispatch:
-    
   schedule:
+    # Se ejecuta todos los días a las 12:00 UTC (6:00 AM hora del centro de México)
     - cron: "0 12 * * *"
 
-  repository_dispatch:
-    types:
-      - webhook
+permissions:
+  contents: write
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - run: |
-        date +%s > lastUpdate
-        git config user.name FabianHermar
-        git config user.email contactofabianmartinez@gmail.com
-        git add lastUpdate
-        git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
-        git push https://$ACTIONS_PAT@github.com/FabianHermar/FabianHermar.git main
-      env:
-        ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Increment counter and update README
+        run: |
+          CURRENT=$(tr -dc '0-9' < lastUpdate 2>/dev/null || echo 0)
+          NEXT=$(( 10#${CURRENT:-0} + 1 ))
+          echo "$NEXT" > lastUpdate
+
+          if grep -q "<!-- last-update: .* -->" README.md; then
+            sed -i "s/<!-- last-update: .* -->/<!-- last-update: $NEXT -->/" README.md
+          else
+            printf "\n<!-- last-update: %s -->\n" "$NEXT" >> README.md
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "FabianHermar"
+          git config user.email "contactofabianmartinez@gmail.com"
+          git add lastUpdate README.md
+          if ! git diff --cached --quiet; then
+            NEXT=$(cat lastUpdate)
+            git commit -m "chore: daily update #$NEXT"
+            git push
+          fi
