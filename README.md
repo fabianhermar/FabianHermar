@@ -14,11 +14,11 @@
     <a href="mailto:ctofabian@gmail.com">
       <img src="https://img.shields.io/badge/Email-ctofabian%40gmail.com-162C3D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://www.linkedin.com/in/fabianhmz/">
-      <img src="https://img.shields.io/badge/LinkedIn-fabianhmz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <a href="https://www.linkedin.com/in/fabianhermar/">
+      <img src="https://img.shields.io/badge/LinkedIn-fabianhermar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <a href="https://x.com/FabianHMz_">
-      <img src="https://img.shields.io/badge/X-%40FabianHMz__-111111?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+    <a href="https://x.com/fabianhermar">
+      <img src="https://img.shields.io/badge/X-%40fabianhermar-111111?style=for-the-badge&logo=x&logoColor=white" alt="X" />
     </a>
     <img src="https://komarev.com/ghpvc/?username=FabianHermar&style=for-the-badge&color=1D8A99&label=PROFILE+VIEWS" alt="Profile Views" />
   </p>
@@ -81,40 +81,6 @@ I'm **Fabian Herrera**, a software developer and entrepreneur passionate about t
 
 ---
 
-### Featured Projects
-
-<div align="center">
-  <a href="https://github.com/FabianHermar/fabianh.dev">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=FabianHermar&repo=fabianh.dev&bg_color=0D1117&border_color=30363D&title_color=E8B84B&icon_color=1D8A99&text_color=C9D1D9" />
-      <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=FabianHermar&repo=fabianh.dev&bg_color=F5F1EE&border_color=E2DCD7&title_color=162C3D&icon_color=E05A3A&text_color=44403C" alt="fabianh.dev" />
-    </picture>
-  </a>
-  &nbsp;
-  <a href="https://github.com/Boxode/Boxode">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Boxode&repo=Boxode&bg_color=0D1117&border_color=30363D&title_color=E8B84B&icon_color=1D8A99&text_color=C9D1D9" />
-      <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=Boxode&repo=Boxode&bg_color=F5F1EE&border_color=E2DCD7&title_color=162C3D&icon_color=E05A3A&text_color=44403C" alt="Boxode" />
-    </picture>
-  </a>
-  <br />
-  <a href="https://github.com/FabianHermar/readme-components">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=FabianHermar&repo=readme-components&bg_color=0D1117&border_color=30363D&title_color=E8B84B&icon_color=1D8A99&text_color=C9D1D9" />
-      <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=FabianHermar&repo=readme-components&bg_color=F5F1EE&border_color=E2DCD7&title_color=162C3D&icon_color=E05A3A&text_color=44403C" alt="readme-components" />
-    </picture>
-  </a>
-  &nbsp;
-  <a href="https://github.com/Boxode/windui">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Boxode&repo=windui&bg_color=0D1117&border_color=30363D&title_color=E8B84B&icon_color=1D8A99&text_color=C9D1D9" />
-      <img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=Boxode&repo=windui&bg_color=F5F1EE&border_color=E2DCD7&title_color=162C3D&icon_color=E05A3A&text_color=44403C" alt="windui" />
-    </picture>
-  </a>
-</div>
-
----
-
 ### GitHub Analytics
 
 <div align="center">
@@ -128,6 +94,7 @@ I'm **Fabian Herrera**, a software developer and entrepreneur passionate about t
     <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabianhermar&layout=compact&langs_count=8&bg_color=F5F1EE&border_color=E2DCD7&title_color=162C3D&text_color=44403C" alt="FabianHermar Top Languages" />
   </picture>
 
+  <!--
   <br />
   <br />
 
@@ -135,6 +102,7 @@ I'm **Fabian Herrera**, a software developer and entrepreneur passionate about t
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=fabianhermar&background=0D1117&border=30363D&ring=E05A3A&fire=E8B84B&currStreakLabel=E8B84B&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" />
     <img height="170" src="https://streak-stats.demolab.com?user=fabianhermar&background=F5F1EE&border=E2DCD7&ring=1D8A99&fire=E05A3A&currStreakLabel=162C3D&sideLabels=44403C&currStreakNum=162C3D&sideNums=162C3D&dates=78716C" alt="FabianHermar Contribution Streak" />
   </picture>
+  -->
 </div>
 
 <br />
