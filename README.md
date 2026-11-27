@@ -20,7 +20,7 @@
     <a href="https://x.com/fabianhermar">
       <img src="https://img.shields.io/badge/X-%40fabianhermar-111111?style=for-the-badge&logo=x&logoColor=white" alt="X" />
     </a>
-    <img src="https://komarev.com/ghpvc/?username=FabianHermar&style=for-the-badge&color=1D8A99&label=PROFILE+VIEWS" alt="Profile Views" />
+    <!-- <img src="https://komarev.com/ghpvc/?username=FabianHermar&style=for-the-badge&color=1D8A99&label=PROFILE+VIEWS" alt="Profile Views" /> -->
   </p>
 </div>
 
